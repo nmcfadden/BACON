@@ -33,7 +33,7 @@
 #include "PrimaryGeneratorAction.hh"
 #include "PrimaryGeneratorActionMessenger.hh"
 
-#include "generators/MGGeneratorRDMPrimary.hh"
+//#include "generators/MGGeneratorRDMPrimary.hh"
 
 #include "RunAction.hh"
 #include "EventAction.hh"
@@ -47,7 +47,7 @@
 
 #include "PhysicsList.hh"
 /* from MaGe */
-#include "processes/MGProcessesList.hh"
+//#include "processes/MGProcessesList.hh"
 
 #ifdef G4VIS_USE
 #include "G4VisExecutive.hh"

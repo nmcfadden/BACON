@@ -1,6 +1,6 @@
 #include "RunAction.hh"
 #include "PrimaryGeneratorAction.hh"
-#include "generators/MGGeneratorRDMPrimary.hh"
+//#include "generators/MGGeneratorRDMPrimary.hh"
 #include "DetectorConstruction.hh"
 
 #include "G4Run.hh"

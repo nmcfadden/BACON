@@ -1,0 +1,19 @@
+#Neils Macro for IonDecays
+/generator/volume phys_OuterSourceAir
+/generator/angdist iso
+/generator/SourceType volume
+/generator/SetIon 27 60 0
+
+
+
+/run/verbose 0 
+/run/initialize
+/event/verbose 0
+/tracking/verbose 0
+/hits/verbose 0
+/tracking/storeTrajectory 1
+/vis/scene/add/trajectories
+#
+/run/beamOn 10
+/vis/scene/endOfEventAction accumulate 10
+/vis/viewer/save

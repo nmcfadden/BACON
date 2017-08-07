@@ -67,8 +67,8 @@
 #include "G4TrackingManager.hh"
 #include "G4Track.hh"
 
-#include "generators/MGGeneratorRDMPrimary.hh"
-#include "io/MGLogger.hh"
+//#include "generators/MGGeneratorRDMPrimary.hh"
+//#include "io/MGLogger.hh"
 
 LegendParticleSource::LegendParticleSource( ) 
 {
